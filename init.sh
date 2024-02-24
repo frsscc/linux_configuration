@@ -1,5 +1,4 @@
 #!/bin/bash
-defines_dir="$(dirname $BASH_SOURCE)"
-echo "source $defines_dir" >> ~/.bashrc
+cat bashrc_extra.sh >> ~//.bashrc
 
 
